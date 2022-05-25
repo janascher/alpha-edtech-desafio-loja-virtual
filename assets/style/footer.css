@@ -1,0 +1,105 @@
+footer {
+    background: hsl(0, 4%, 91%);
+}
+
+.footerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerNav, 
+.footerInfos, 
+.footerNewsletter {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: left;
+    padding: 38px;
+}
+
+/* Nav */
+.footerNav {
+    margin-left: 45px;
+}
+
+.footerTitle h5 {
+    font-family: "metropolissemi_bold", sans-serif;
+    font-size: 1rem;
+}
+
+.footerMenu li {
+    margin: 9px 0;
+}
+
+.footerMenu li:first-child {
+    margin-top: 0;
+}
+
+.footerMenu a {
+    color: hsl(0, 0%, 7%);
+    font-size: 0.87rem;
+}
+
+/* Safe and Payment method */
+.footerImage {
+    display: flex;
+}
+
+.footerImage div:first-child {
+    justify-content: left;
+    margin-right: 25px;
+}
+
+.footerImage div svg {
+    width: 28px;
+}
+
+.footerImage p {
+    font-size: 0.87rem;
+}
+
+.infosPayment {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Newsletter */
+.footerNewsletter {
+    padding: 38px 38px 100px 38px;
+    margin-right: 45px;
+}
+
+.newsletterForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletterForm label {
+    font-size: 0.87rem;
+    margin-bottom: 9px;
+}
+
+.newsletterForm input {
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 7%);
+    height: 37px;
+    padding: 3px 3px 3px 21px;
+}
+
+.newsletterForm button {
+    background: hsl(0, 0%, 7%);
+    color: hsl(0, 100%, 100%);
+    font-family: "metropolissemi_bold", sans-serif;
+    font-size: 1.06rem;
+    margin-top: 9px;
+    height: 42px;
+}
+
+.newsletterForm button:hover {
+    background: hsla(217, 100%, 58%, 1);
+    border: 1px solid hsla(217, 100%, 58%, 1);
+    transition: border 0.4s ease 0s, background 0.4s ease 0s;
+}
