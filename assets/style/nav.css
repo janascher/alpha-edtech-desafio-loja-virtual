@@ -1,0 +1,91 @@
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.font {
+    font-family: "metropolissemi_bold", sans-serif;
+}
+
+.logo a {
+    color: hsl(0, 0%, 7%);
+}
+
+.logo h1 {
+    font-size: 2.93rem;
+}
+
+.logo h1:hover {
+    color: hsl(60, 1%, 46%);
+}
+
+.logo p:hover {
+    color: hsl(60, 1%, 46%);
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: hsl(0, 0%, 7%);
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    padding: 0 10px;
+}
+
+.menu li:hover {
+    color: hsl(60, 1%, 46%);
+}
+
+.headerRowTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* login */
+.login {
+    display: flex;
+    align-items: center;
+    padding: 6px 7px;
+    margin-right: 20px;
+}
+
+.login a {
+    color: hsl(0, 0%, 7%);
+}
+
+.login .icon {
+    font-size: 1.6rem;
+    padding-right: 15px;
+}
+
+.login .font:hover {
+    color: hsl(60, 1%, 46%);
+}
+
+/* Social Media */
+.socialMedia {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.socialMedia a {
+    color: hsl(0, 0%, 7%);
+}
+
+.socialMedia .iconSocial {
+    font-size: 1.1rem;
+    padding: 0 9px;
+}

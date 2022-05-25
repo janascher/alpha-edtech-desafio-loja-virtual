@@ -1,0 +1,135 @@
+/* ## Font ## */
+@font-face {
+    font-family: "metropolislight";
+    src: url(../font/metropolis-light-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "metropolissemi_bold";
+    src: url(../font/metropolis-semibold-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ## General ## */
+* {
+    box-sizing: border-box;
+    font-family: "metropolislight", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background: hsla(0, 0%, 90%, 0.35);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+/* ## Header ## */
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ /* Whatsapp */
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.whatsapp a {
+    color: hsl(0, 0%, 7%);
+}
+
+.whatsapp .icon {
+    font-size: 1.7rem;
+    padding-right: 13px;
+}
+
+.whatsapp span {
+    font-size: 0.8rem;
+}
+
+/* FAQ */
+.faq {
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    margin-left: 29px;
+}
+
+.faq a {
+    color: hsl(0, 0%, 7%);
+}
+
+.faq .icon {
+    font-size: 1.7rem;
+    padding-right: 13px;
+}
+
+.faq span {
+    font-size: 0.8rem;
+}
+
+/* Search */
+#search-container {
+    background: hsl(0, 100%, 100%);
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+    padding: 0 12px;
+    width: 25%;
+    height: 41px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    max-width: 298px;
+    width: 100%;
+}
+
+.buttonSearch {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+.buttonSearch.icon {
+    color: hsla(0, 0%, 47%, 1);
+    font-size: 1rem;
+}
+
+.searchInput{
+    border: none;
+    color: hsl(0, 0%, 7%);
+    font-size: 0.8rem;
+    height: 100%;
+    width: 100%;
+}
+
+.searchInput:focus {
+    color: hsl(0, 0%, 7%);
+    padding-left: 5px;
+}

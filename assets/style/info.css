@@ -1,0 +1,30 @@
+.info {
+    border-top: 0 solid hsl(0, 0%, 7%);
+    border-top-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 115px 58px;
+}
+
+.infoCard {
+    display: flex;
+    align-items: center; 
+}
+
+.infoCard svg {
+    width: 45px;
+}
+
+.infoCardText {
+    padding: 20px;
+}
+
+.infoCardText p:first-child {
+    font-family: "metropolissemi_bold", sans-serif;
+    font-size: 1.1rem;
+}
+
+.infoCardText p {
+    font-size: 0.9rem;
+}
