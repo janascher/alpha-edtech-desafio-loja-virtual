@@ -17,7 +17,7 @@
 ## 👀 Preview
 
 <div align="center">
-	<a href="">
+	<a href="https://janascher.github.io/alpha-edtech-desafio-loja-virtual/">
 		<img src="https://user-images.githubusercontent.com/79182711/170175283-869befb2-86f6-47a8-924b-d2a2da235a55.PNG" alt="Loja virtual" title="Loja virtual" width="650" />
 	</a>
 </div>
